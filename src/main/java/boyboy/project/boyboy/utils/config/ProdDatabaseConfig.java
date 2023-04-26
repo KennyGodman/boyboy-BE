@@ -32,7 +32,7 @@ public class ProdDatabaseConfig {
     @Value("${PROD.DB.PASSWORD}")
     private String password;
 
-    @Value("${PROD.DB.URL}")
+    @Value("${spring.data.mongodb.uri}")
     private String url;
 
     @Bean
